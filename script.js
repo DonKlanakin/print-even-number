@@ -1,7 +1,8 @@
-let input = prompt("fill number");
-
-if (input % 2 === 0) {
-    alert("even");
-    console.log("even");
-    document.getElementsByTagName("p")[0].innerHTML = "even";
-}
+setTimeout(() => {
+    let input = prompt("fill number");
+    if (input % 2 === 0) {
+        alert("even");
+        console.log("even");
+        document.getElementsByTagName("p")[0].innerHTML = "even";
+    }
+}, 400);
